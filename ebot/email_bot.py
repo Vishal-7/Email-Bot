@@ -23,9 +23,9 @@ def get_info():
 def send_email():
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login('sreeram.vishal1@gmail.com','Arsenal14!$')
-    server.sendmail('sreeram.vishal1@gmail.com',
-                    'sreeram.vishal@gmail.com',
+    server.login(' ## Your Email Address ##','## Your Password ##')
+    server.sendmail('## Your Email Address ##',
+                    '## Receiver Email Address ##',
                     'Hi! This is just a test message. Please ignore.')
 
 def get_email_info():
